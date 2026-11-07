@@ -1,5 +1,21 @@
 # Folio — PDF audiobooks for Android
 
+## Source checkout quick start
+
+Folio is an Android PDF-reading/listening application with text extraction, speech playback and local reading/listening state. This repository contains its application source, not the historical phone-transfer ZIP or an installed voice package.
+
+The Android source declares **1.0.1**, min SDK 26 and compile/target SDK 35. Use JDK 17 and Android SDK 35. Configure the SDK locally and build on Windows with:
+
+```powershell
+.\gradlew.bat :app:assembleDebug
+```
+
+`Build-Folio.cmd` is an existing local helper; review its expected toolchain paths on a different machine. The generated debug APK is under `app/build/outputs/apk/debug/`. Historical `artifacts/` release/transfer references below describe local development outputs that are omitted from this source snapshot.
+
+After installing a locally built APK, choose a PDF through the app's picker, inspect extracted text and configure an available speech/voice path. Extraction quality, document layout, available voices and audio timing can vary. A PDF that opens successfully is not automatically evidence of correct paragraph extraction or uninterrupted long-book playback.
+
+The Android implementation is under `app/`, build/support tools under `tools/`, and authored checks under `tests/`. Keep personal PDFs, reading history, generated audio and account/device data outside the repository. The feature guide below explains the implemented boundaries in more detail.
+
 Folio imports PDFs and reads their text through Android's installed text-to-speech engine. It prefers **Speech Recognition & Synthesis from Google** (`com.google.android.tts`) when available. The recognition/microphone side of Google's app is not needed; Folio uses its synthesis voices.
 
 ## Install and start
@@ -79,3 +95,8 @@ Dependencies: PDFBox Android 2.0.27.0 (Apache-2.0), ML Kit text recognition 16.0
 ## Update from 1.0.0
 
 Copy `Folio-1.0.1.apk` to the phone by the working USB method and install over Folio. Do not uninstall first if you want to retain the library and statistics. The previous APK remains in artifacts. The reported Drive download failure was bypassed successfully by direct transfer; its exact cloud-side cause has not been established.
+
+
+## Source snapshot and validation
+
+See [BACKUP_NOTES.md](BACKUP_NOTES.md) for the omitted build outputs, local settings, credentials and runtime data. Build generated binaries locally using the instructions above; a source checkout is not an installed application. Earlier validation figures in this guide describe their original development runs. This documentation update checks source references and instructions; it does not claim a fresh application, device or gameplay test.
