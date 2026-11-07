@@ -1,0 +1,7 @@
+{
+  "name": "folio-reader",
+  "private": true,
+  "version": "1.0.1",
+  "scripts": { "test": "node --test tests/core.test.cjs", "test:ui": "node tests/ui.test.cjs" },
+  "devDependencies": { "playwright": "1.58.2" }
+}

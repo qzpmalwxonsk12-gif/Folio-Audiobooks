@@ -1,0 +1,200 @@
+{
+  "source_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "f72dd371d6956b5c1377cc0d65b20dc4cca2b13b0323782bf99e96e3b02173f5",
+      "size": 95
+    },
+    {
+      "path": "Build-Folio.cmd",
+      "sha256": "b82fa3b0439c9a142ccde4c9728372a3c0305d6890b315d8084cf82768778910",
+      "size": 342
+    },
+    {
+      "path": "build.gradle",
+      "sha256": "8ebf0602839be8fd4c06f07a93e45da6b4a04444fa1b38df8b9def9c1b5c8032",
+      "size": 69
+    },
+    {
+      "path": "gradle.properties",
+      "sha256": "3769ae5ed617c0706c6621ff3a3552aeb7d1dd936ecb3ed12f28b108fa65fd37",
+      "size": 134
+    },
+    {
+      "path": "gradlew",
+      "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+      "size": 8733
+    },
+    {
+      "path": "gradlew.bat",
+      "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+      "size": 2937
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "66b7b7403308d11a7555566521714f23be5ac8fde518515ab6c488bd5d626155",
+      "size": 1795
+    },
+    {
+      "path": "package.json",
+      "sha256": "797d044d4c857e37c814a0c9e83d43670ab42e2e5449170ab21414eb5e7de506",
+      "size": 223
+    },
+    {
+      "path": "README.md",
+      "sha256": "7ed6848ba5969d537a7b4faae0818693224bae84ac9797806063a2c9bf20c713",
+      "size": 8632
+    },
+    {
+      "path": "settings.gradle",
+      "sha256": "2d80f7babe27448cdde85d6b068ca8635ba9a5a7a95d5de9ef1223c5ca8596d6",
+      "size": 266
+    },
+    {
+      "path": "app/build.gradle",
+      "sha256": "d5fc3598be81627bc4b525ecfcddac7b871ba1cdcdd2c01d827cb9609f1c0930",
+      "size": 1078
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "ed4d8555be6ddd96ce70ccaf6e90158d4801424fdda540d0f2d545a6fd1a84c5",
+      "size": 1999
+    },
+    {
+      "path": "app/src/main/assets/app.css",
+      "sha256": "7ac9da0e8cfcc73782e99e79a0d762fc90f03a7d8411192947294b6673aeec3b",
+      "size": 30946
+    },
+    {
+      "path": "app/src/main/assets/app.js",
+      "sha256": "faec38abd067fc94f35a450559bb02225bf118a12b851338758dbb04b8f699e1",
+      "size": 36168
+    },
+    {
+      "path": "app/src/main/assets/core.js",
+      "sha256": "218048de0481a962b4ccca86dd673d651d766f00c520d9b83ced901ce724a09d",
+      "size": 1296
+    },
+    {
+      "path": "app/src/main/assets/index.html",
+      "sha256": "f9839f699fdb95e245b864f97286971d2cb2e1c0a491a08b2b77cc510f543ce4",
+      "size": 2560
+    },
+    {
+      "path": "app/src/main/java/com/folio/reader/FolioApplication.java",
+      "sha256": "c4dd0b6b12f5e1bd8af8a5e28f84272ecb89aa67d42ec4a7aab33fb3dd84238d",
+      "size": 290
+    },
+    {
+      "path": "app/src/main/java/com/folio/reader/LibraryDb.java",
+      "sha256": "b57886ea62971fcb5910e79f9ec456c379476575b212dc6a7cedc70477f87c6c",
+      "size": 7448
+    },
+    {
+      "path": "app/src/main/java/com/folio/reader/MainActivity.java",
+      "sha256": "76d1becf4cbf361ecd41281793600a7492c78867e43fdeb8c6db194e14296cc6",
+      "size": 15373
+    },
+    {
+      "path": "app/src/main/java/com/folio/reader/OfflineVoices.java",
+      "sha256": "7ccae13a279929a8eadd1f77de380282130b27792dccdf5df9cb20a1c85ead9c",
+      "size": 1480
+    },
+    {
+      "path": "app/src/main/java/com/folio/reader/PdfImporter.java",
+      "sha256": "6dddcd2e7d145a38ea8cccd3bf0a3f69ea94a3d7e6091d4619d4ef4b9b7346a9",
+      "size": 7038
+    },
+    {
+      "path": "app/src/main/java/com/folio/reader/PdfPageActivity.java",
+      "sha256": "a24243592771bfabb65fc53634c5eb9ecaa0ac7d08dcaa8c8d49fb29135b2aae",
+      "size": 4501
+    },
+    {
+      "path": "app/src/main/java/com/folio/reader/PlaybackService.java",
+      "sha256": "84c9b617d9417f5e1bfde9606aadc51c5214ff36b0beea1b8eab3946d7efb9b4",
+      "size": 22670
+    },
+    {
+      "path": "app/src/main/java/com/folio/reader/ReadingText.java",
+      "sha256": "53a1cad1317d368ad70cfbe3c9211a9fb35160a80424863db51d17c69125880a",
+      "size": 2952
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher.xml",
+      "sha256": "a6fab5124d36db5f841a11becddeb2679a3af06bb1602357eda73dfd28c86edc",
+      "size": 462
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_notification.xml",
+      "sha256": "dc299b9ab09321d66f51ae3c5165965f83306197311b4dd242ab01c6ef4d5e00",
+      "size": 267
+    },
+    {
+      "path": "app/src/main/res/values/styles.xml",
+      "sha256": "914c4f321124fa9f7a56ea0182cb017c0955c1ddfae5318ad6415ef4fd8108e8",
+      "size": 609
+    },
+    {
+      "path": "app/src/main/res/values-v27/styles.xml",
+      "sha256": "5363191d11889ccfab238e3810883fdccc9120f833605314aa5f6798d883f9bc",
+      "size": 675
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "sha256": "f2f358d89c06fa712f6887b9bac1d9859b8843ec79f614084d32029efb76db5c",
+      "size": 591
+    },
+    {
+      "path": "app/src/test/java/com/folio/reader/OfflineVoicesTest.java",
+      "sha256": "464e870f7ba21a85496c37eabd89c7719bfc0f422cf339e810a8c47e47e3fc7d",
+      "size": 2277
+    },
+    {
+      "path": "app/src/test/java/com/folio/reader/PdfImportSafetyTest.java",
+      "sha256": "9ad8a861b96b1153c2a23db9dd7c96eea4ac8f10ef54a36b4773db72a31fff68",
+      "size": 2044
+    },
+    {
+      "path": "app/src/test/java/com/folio/reader/PlaybackServiceTest.java",
+      "sha256": "3f31e6a495cef7a8cd42e002a0c371b9b7845066d246b488de4342b5b7a1d38a",
+      "size": 7317
+    },
+    {
+      "path": "app/src/test/java/com/folio/reader/ReadingTextTest.java",
+      "sha256": "6247e3c90a383e4888d127e122ab4c3b1eab7945a901e9ad15977072f4825bbc",
+      "size": 2674
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+      "size": 43764
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "00a80a9359d043ab897fc54bb5f23edb8c26583267914b52a622e19ffacaa234",
+      "size": 253
+    },
+    {
+      "path": "tests/core.test.cjs",
+      "sha256": "23f2d60777f8776b205e405cfe8ed153fe4d8f11549961fcaf41c277d2ef2c3d",
+      "size": 1507
+    },
+    {
+      "path": "tests/ui.test.cjs",
+      "sha256": "f59f53b73d98458de725020dd94a6cda44e06a1e712e56b0f9309c43f839b4b7",
+      "size": 10270
+    },
+    {
+      "path": "tools/prepare_phone_transfer.py",
+      "sha256": "2ddd3fffaa50845fb90088e58c8c56a21e0e373daeac14e0c08a1d6bf530c593",
+      "size": 3134
+    },
+    {
+      "path": "tools/verify_release.py",
+      "sha256": "e8810128d99a23a72d60bcbbf94be3f59753987ef0dfbbf3293dd5eeec89da39",
+      "size": 5949
+    }
+  ],
+  "hash_basis": "Prepared source bytes before Git line-ending normalization and README notice prefixes."
+}
